@@ -1,0 +1,8 @@
+// CharacterCount.java
+public class CharacterCount {
+    public static void main(String[] args) {
+        String input = "Hello Jenkins and Docker!";
+        int charCount = input.length();
+        System.out.println("Number of characters: " + charCount);
+    }
+}
